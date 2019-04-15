@@ -16,8 +16,8 @@ const alignMap = {
   mid: {
     alignItems: 'flex-start',
     justifyContent: 'center',
-    startDegree: 0,
-    endDegree: 180,
+    startDegree: -90,
+    endDegree: 90,
   },
 
   center: {
@@ -296,7 +296,7 @@ ActionButton.defaultProps = {
   backdrop: false,
   degrees: 135,
   size: 63,
-  itemSize: 36,
+  itemSize: 56,
   radius: 100,
   btnOutRange: 'rgba(0,0,0,1)',
   btnOutRangeTxt: 'rgba(255,255,255,1)',
