@@ -13,6 +13,13 @@ import PropTypes from 'prop-types';
 import ActionButtonItem from './ActionButtonItem';
 
 const alignMap = {
+  mid: {
+    alignItems: 'flex-start',
+    justifyContent: 'center',
+    startDegree: 0,
+    endDegree: 180,
+  },
+
   center: {
     alignItems: 'center',
     justifyContent: 'flex-end',
@@ -273,7 +280,7 @@ ActionButton.propTypes = {
   endDegree: PropTypes.number,
   radius: PropTypes.number,
   children: PropTypes.node,
-  position: PropTypes.oneOf(['left', 'center', 'right']),
+  position: PropTypes.oneOf(['left', 'center', 'right', 'mid']),
 };
 
 ActionButton.defaultProps = {
