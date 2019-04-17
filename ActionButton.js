@@ -296,7 +296,7 @@ ActionButton.defaultProps = {
   backdrop: false,
   degrees: 135,
   size: 63,
-  itemSize: 56,
+  itemSize: 80,
   radius: 100,
   btnOutRange: 'rgba(0,0,0,1)',
   btnOutRangeTxt: 'rgba(255,255,255,1)',
